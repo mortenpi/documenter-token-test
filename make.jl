@@ -52,8 +52,4 @@ makedocs(
     ),
 )
 
-deploydocs(
-    repo = "github.com/JuliaDocs/juliadocs.github.io.git",
-    branch = "master",
-    devbranch = "source",
-)
+deploydocs(repo = "github.com/mortenpi/documenter-token-test.git")
